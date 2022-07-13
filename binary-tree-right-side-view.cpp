@@ -28,7 +28,7 @@ public:
             res.push_back(root->val);
         }
         res = solve(root->right, res, lvl + 1); // right
-        res = solve(root->left, res, lvl + 1);  // left
+        res = solve(root->left, res, lvl + 1);  // left 
         return res;
     }
 
